@@ -14,6 +14,13 @@ Four DataFrames were extracted from the crowdfunding.xlsx data.
 
 * Campaign DataFrame: created by pulling "cf_id", "contact_id", "company_name", "blurb" - renamed to "description", "goal" - converted to the float data type,  "pledged" - converted to the float data type, "outcome" , "backers_count", "country" , "currency", "launched_at" column - renamed to "launch_date" and with the UTC times converted to the datetime format, "deadline" column - renamed to "end_date" and with the UTC times converted to the datetime format, "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame, and "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame. Campaign DataFrame was then saved into GitHub. 
 
+* Contacts DataFrame: created using both Python dictionary methods and regular expressions. Contacts DataFrame was then saved into GitHub.
+
+* Crowdfunding Database: created by sketching the four CSV files using QuickDBD. 
+
+<p align="center">
+  <img width="1200" height="600" src="https://github.com/mbarre8/Crowdfunding_ETL/blob/main/ETL-Process-for-linkedin3.png">
+</p>
 ## Results 
 
 
