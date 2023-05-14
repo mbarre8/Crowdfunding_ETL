@@ -16,11 +16,12 @@ Four DataFrames were extracted from the crowdfunding.xlsx data.
 
 * Contacts DataFrame: created using both Python dictionary methods and regular expressions. Contacts DataFrame was then saved into GitHub.
 
-* Crowdfunding Database: created by sketching the four CSV files using QuickDBD. 
+* Crowdfunding Database: created by sketching the four CSV files using QuickDBD and using the information from the ERD to create a table schema for each csv file. Database schema was then saved as a Postgres file into GitHub. A new Postgres database was created to arrange the tables in the correct order to handle foreign keys. A SELECT statement was applied to verify the data in each table. 
 
 <p align="center">
-  <img width="1200" height="600" src="https://github.com/mbarre8/Crowdfunding_ETL/blob/main/ETL-Process-for-linkedin3.png">
+  <img width="1200" height="600" src="ERD.png">
 </p>
+
 ## Results 
 
 
